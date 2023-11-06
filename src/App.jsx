@@ -5,7 +5,7 @@ import "./styles/global.css";
 import dayjs from "dayjs";
 import { v4 as uuidv4 } from "uuid";
 import { personalData, educationData, skillData, expData } from "./sampleData";
-import PersonalDetails from "./components/personalDetails";
+import PersonalDetails from "./components/PersonalDetails";
 import EducationDetails from "./components/EducationDetails";
 import SkillsDetails from "./components/SkillsDetails";
 import ExperienceDetails from "./components/ExperienceDetails";
