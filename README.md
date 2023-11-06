@@ -4,8 +4,9 @@ This CV builder project is created using react based on **The Odin Project**
 
 ![Preview](public/preview.jpg)
 
-<h2>🚀 Demo</h2>
-[link](https://cv-builderjksoonodinproject.netlify.app/)
+## **Demo**
+
+## [link](https://cv-builderjksoonodinproject.netlify.app/)
 
 ## **Features**
 
