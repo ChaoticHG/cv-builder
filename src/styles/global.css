@@ -1,0 +1,40 @@
+label {
+    display: flex; 
+    flex-direction: row; 
+    width: 100%; 
+    margin-bottom: .5rem;
+    color: #fff;
+    }
+
+label span { 
+    width: 5rem; 
+    min-width: 8rem; 
+    display: inline-block;
+    text-align: left;
+    }
+
+input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    }
+
+textarea {
+    width: 100%;
+    min-height: 2rem; 
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    overflow-y: hidden; 
+    resize: vertical;
+    }
+
+input:focus {
+    border-color: #5c6bc0;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(92, 107, 192, 0.5);
+    }
+    

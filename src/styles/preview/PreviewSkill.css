@@ -1,0 +1,12 @@
+.previewSkillMain{
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.previewSkillSub{
+    text-align: left;
+    padding-left: 5rem;
+}

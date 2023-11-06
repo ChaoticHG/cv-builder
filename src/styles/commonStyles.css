@@ -1,0 +1,75 @@
+/* generalForm and subGeneralForm css */
+.generalForm {
+    flex-grow: 1;
+    max-width: 30rem; 
+    padding: 0.5rem; 
+    background: rgb(46, 64, 83);
+    border-radius: 1rem; 
+  }
+
+.subGeneralForm{
+    display: flex; 
+    flex-direction: column;
+    gap: .3rem;
+}
+
+/* delete and add button css */
+.deleteButton,
+.addButton {
+    align-self: center;
+    width: 5rem; 
+    padding: 0.65rem 1rem; 
+    border: none;
+    border-radius: 0.25rem; 
+    background-color: #5c6bc0;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover,
+.addButton:hover {
+    background-color: #3f51b5;
+}
+
+.deleteButton {
+    background-color: #ef5350;
+}
+
+.deleteButton:hover {
+    background-color: #d32f2f;
+}
+
+.deleteButton,
+.addButton {
+    font-size: 0.8rem; 
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem; 
+}
+
+/* datepicker css */
+.yearSelector{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.startYear .MuiInputBase-input,
+.endYear .MuiInputBase-input {
+  font-family: 'Roboto', sans-serif; 
+  color: #fff;
+}
+
+
+.startYear .MuiOutlinedInput-notchedOutline,
+.endYear .MuiOutlinedInput-notchedOutline {
+  border-color: #fff;
+}
+
+.startYear .MuiInputLabel-root,
+.endYear .MuiInputLabel-root {
+  color: #fff; 
+  text-align: left; 
+  justify-content: left; 
+}

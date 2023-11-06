@@ -1,0 +1,39 @@
+.previewEduMain{
+    display: flex;
+    flex-direction: column;
+}
+
+.previewEduSub{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    text-align: left;
+    padding-left: 5rem;
+}
+
+.previewEduSubYear{
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+}
+
+.previewStudyTitle{
+    font-size: 1.5rem; 
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding: 0;
+  }
+  
+.previewStartYear,
+.previewEndYear,
+.previewSchoolName {
+    font-size: 1rem; 
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding: 0;
+}
+
+.previewEduSubYear p {
+    display: inline-block; 
+    margin: 0 5px; 
+}

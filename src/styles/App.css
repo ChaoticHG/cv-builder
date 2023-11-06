@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.mainApp {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr;
+  gap: 1rem;
+}
+
+.editSection {
+  padding: .5rem; 
+}
+
+.editForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #424242;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+/* Overview section styling */
+.overview { 
+  position: sticky;
+  top: 0;
+  padding: 0rem;
+  border-radius: 1rem;
+  color: #fff; 
+  overflow-y: auto;
+  max-height: 100vh; 
+  grid-column: 2;
+}
+
+
+.overview {
+  grid-column: 2; 
+}
+
+
+@media (max-width: 768px) {
+  .mainApp {
+    grid-template-columns: 1fr; 
+  }
+
+  .overview {
+    grid-column: auto; 
+  }
+}

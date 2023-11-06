@@ -1,0 +1,32 @@
+  .skillRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.1rem;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  }
+
+  .skillRow input[type="text"] {
+    flex-grow: 1;
+    margin-right: 0.6rem; 
+    padding: 0.6rem; 
+    border: 1px solid #ccc; 
+    border-radius: 0.3rem; 
+    font-size: 0.8rem; 
+  }
+  
+  /* Additional media query for responsiveness */
+  @media (max-width: 768px) {
+    .skillRow {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .skillRow input[type="text"] {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  

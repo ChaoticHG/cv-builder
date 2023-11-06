@@ -1,0 +1,41 @@
+.previewExpMain{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.previewExpSub{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    text-align: left;
+    padding-left: 5rem;
+}
+
+.previewExpSubCluster{
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+}
+
+.previewCompanyName {
+    font-size: 1.5rem; 
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding: 0;
+  }
+  
+.previewPositionTitle,
+.previewStartYear,
+.previewEndYear,
+.previewMainResp {
+    font-size: 1rem; 
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding: 0;
+}
+
+.previewExpSubCluster p {
+    display: inline-block; 
+    margin: 0 5px; 
+}
