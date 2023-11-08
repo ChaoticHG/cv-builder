@@ -31,7 +31,7 @@ npm start
 
 - Image upload feature.
 - Collapsible Input Section.
-- Customizable template colour and layour design.
+- Customizable template colour and layout design.
 
 ## **Build with **
 
